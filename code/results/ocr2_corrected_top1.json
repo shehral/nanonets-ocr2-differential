@@ -1,0 +1,161 @@
+{
+  "description": "Corrected OCR2 top-1 predictions computed from cached OCR2 hs[36] and the shared embed_tokens.T (base's tied lm_head, which is numerically identical to OCR2's embed_tokens). Use these in match-OCR2 calculations instead of Phase 2.17's broken ocr2_top1 values.",
+  "per_image": [
+    {
+      "image_id": "01",
+      "category": "docvqa",
+      "corrected_top1_from_hs36_direct": 6373,
+      "corrected_top1_from_hs35_plus_norm": 6373
+    },
+    {
+      "image_id": "02",
+      "category": "docvqa",
+      "corrected_top1_from_hs36_direct": 45,
+      "corrected_top1_from_hs35_plus_norm": 45
+    },
+    {
+      "image_id": "03",
+      "category": "docvqa",
+      "corrected_top1_from_hs36_direct": 10794,
+      "corrected_top1_from_hs35_plus_norm": 33416
+    },
+    {
+      "image_id": "04",
+      "category": "docvqa",
+      "corrected_top1_from_hs36_direct": 20993,
+      "corrected_top1_from_hs35_plus_norm": 20993
+    },
+    {
+      "image_id": "05",
+      "category": "docvqa",
+      "corrected_top1_from_hs36_direct": 27,
+      "corrected_top1_from_hs35_plus_norm": 27
+    },
+    {
+      "image_id": "06",
+      "category": "docvqa",
+      "corrected_top1_from_hs36_direct": 2,
+      "corrected_top1_from_hs35_plus_norm": 2
+    },
+    {
+      "image_id": "07",
+      "category": "handwritten",
+      "corrected_top1_from_hs36_direct": 628,
+      "corrected_top1_from_hs35_plus_norm": 628
+    },
+    {
+      "image_id": "08",
+      "category": "handwritten",
+      "corrected_top1_from_hs36_direct": 813,
+      "corrected_top1_from_hs35_plus_norm": 813
+    },
+    {
+      "image_id": "09",
+      "category": "handwritten",
+      "corrected_top1_from_hs36_direct": 265,
+      "corrected_top1_from_hs35_plus_norm": 265
+    },
+    {
+      "image_id": "10",
+      "category": "handwritten",
+      "corrected_top1_from_hs36_direct": 45,
+      "corrected_top1_from_hs35_plus_norm": 45
+    },
+    {
+      "image_id": "11",
+      "category": "arxiv_equation",
+      "corrected_top1_from_hs36_direct": 14085,
+      "corrected_top1_from_hs35_plus_norm": 14085
+    },
+    {
+      "image_id": "12",
+      "category": "arxiv_equation",
+      "corrected_top1_from_hs36_direct": 20358,
+      "corrected_top1_from_hs35_plus_norm": 20358
+    },
+    {
+      "image_id": "13",
+      "category": "arxiv_equation",
+      "corrected_top1_from_hs36_direct": 1748,
+      "corrected_top1_from_hs35_plus_norm": 1748
+    },
+    {
+      "image_id": "14",
+      "category": "arxiv_equation",
+      "corrected_top1_from_hs36_direct": 1740,
+      "corrected_top1_from_hs35_plus_norm": 1740
+    },
+    {
+      "image_id": "15",
+      "category": "receipt",
+      "corrected_top1_from_hs36_direct": 20993,
+      "corrected_top1_from_hs35_plus_norm": 20993
+    },
+    {
+      "image_id": "16",
+      "category": "receipt",
+      "corrected_top1_from_hs36_direct": 3533,
+      "corrected_top1_from_hs35_plus_norm": 20993
+    },
+    {
+      "image_id": "17",
+      "category": "receipt",
+      "corrected_top1_from_hs36_direct": 33,
+      "corrected_top1_from_hs35_plus_norm": 33
+    },
+    {
+      "image_id": "18",
+      "category": "receipt",
+      "corrected_top1_from_hs36_direct": 20993,
+      "corrected_top1_from_hs35_plus_norm": 20993
+    },
+    {
+      "image_id": "19",
+      "category": "form",
+      "corrected_top1_from_hs36_direct": 49,
+      "corrected_top1_from_hs35_plus_norm": 27
+    },
+    {
+      "image_id": "20",
+      "category": "form",
+      "corrected_top1_from_hs36_direct": 23707,
+      "corrected_top1_from_hs35_plus_norm": 21968
+    },
+    {
+      "image_id": "21",
+      "category": "form",
+      "corrected_top1_from_hs36_direct": 16,
+      "corrected_top1_from_hs35_plus_norm": 16
+    },
+    {
+      "image_id": "22",
+      "category": "form",
+      "corrected_top1_from_hs36_direct": 40371,
+      "corrected_top1_from_hs35_plus_norm": 40371
+    },
+    {
+      "image_id": "23",
+      "category": "multilingual_zh_cn",
+      "corrected_top1_from_hs36_direct": 104455,
+      "corrected_top1_from_hs35_plus_norm": 104455
+    },
+    {
+      "image_id": "24",
+      "category": "multilingual_ar",
+      "corrected_top1_from_hs36_direct": 133509,
+      "corrected_top1_from_hs35_plus_norm": 124552
+    },
+    {
+      "image_id": "25",
+      "category": "multilingual_ja",
+      "corrected_top1_from_hs36_direct": 102249,
+      "corrected_top1_from_hs35_plus_norm": 102249
+    },
+    {
+      "image_id": "26",
+      "category": "multilingual_fr",
+      "corrected_top1_from_hs36_direct": 43,
+      "corrected_top1_from_hs35_plus_norm": 43
+    }
+  ]
+}

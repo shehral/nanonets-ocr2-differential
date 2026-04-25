@@ -1,0 +1,41 @@
+# Large/regenerable artifacts (regenerate via the run scripts)
+code/activations/
+code/__pycache__/
+*.pth
+*.safetensors
+*.bin
+
+# Datasets and image outputs not committed (rebuild via 01_build_eval_set.py)
+data/raw/
+data/cache/
+data/processed/*.png
+
+# HuggingFace / PyTorch caches
+hf-cache/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.run.xml
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,327 @@
+{
+  "target_layer": 35,
+  "n_images": 26,
+  "by_category": {
+    "arxiv": {
+      "n": 4,
+      "pre_share_mean": 0.5416692031380572,
+      "image_share_mean": 0.20676314688912398,
+      "post_share_mean": 0.2515676499728177,
+      "pre_share_std": 0.003488788610970133,
+      "image_share_std": 0.004696602740633012,
+      "post_share_std": 0.0028906527694373733
+    },
+    "docvqa": {
+      "n": 6,
+      "pre_share_mean": 0.5278238531474435,
+      "image_share_mean": 0.19363088297173128,
+      "post_share_mean": 0.27854526388082407,
+      "pre_share_std": 0.010441033525592405,
+      "image_share_std": 0.01222018523683662,
+      "post_share_std": 0.010991461270073445
+    },
+    "form": {
+      "n": 4,
+      "pre_share_mean": 0.5317133273142634,
+      "image_share_mean": 0.18953522781797041,
+      "post_share_mean": 0.27875144486776504,
+      "pre_share_std": 0.006858554646852458,
+      "image_share_std": 0.010633784944090504,
+      "post_share_std": 0.004328334119141008
+    },
+    "handwritten": {
+      "n": 4,
+      "pre_share_mean": 0.5294993205131062,
+      "image_share_mean": 0.21171477957412596,
+      "post_share_mean": 0.2587858999127667,
+      "pre_share_std": 0.00962338172563854,
+      "image_share_std": 0.014346674976331557,
+      "post_share_std": 0.006319680145929427
+    },
+    "multilingual": {
+      "n": 4,
+      "pre_share_mean": 0.5337139857121844,
+      "image_share_mean": 0.20756080950095762,
+      "post_share_mean": 0.25872520478685695,
+      "pre_share_std": 0.015137905034055746,
+      "image_share_std": 0.01810536952496738,
+      "post_share_std": 0.0029912278714399987
+    },
+    "receipt": {
+      "n": 4,
+      "pre_share_mean": 0.5287484960173967,
+      "image_share_mean": 0.20597663091738874,
+      "post_share_mean": 0.2652748730652134,
+      "pre_share_std": 0.006135076396429827,
+      "image_share_std": 0.00838518739230508,
+      "post_share_std": 0.0032548306869684953
+    }
+  },
+  "overall_share_mean": {
+    "pre": 0.5318584788332573,
+    "image": 0.20184567987033286,
+    "post": 0.2662958412964086
+  },
+  "per_image": [
+    {
+      "image_id": "01",
+      "category": "docvqa",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 185.4672393798828,
+      "post_mean": 237.9438934326172,
+      "pre_share": 0.5319325024824784,
+      "image_share": 0.2050281154191273,
+      "post_share": 0.2630393820983932
+    },
+    {
+      "image_id": "02",
+      "category": "docvqa",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 165.55245971679688,
+      "post_mean": 246.73382568359375,
+      "pre_share": 0.5385557493316552,
+      "image_share": 0.18529170973060485,
+      "post_share": 0.27615254093773883
+    },
+    {
+      "image_id": "03",
+      "category": "docvqa",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 176.1299285888672,
+      "post_mean": 248.8060302734375,
+      "pre_share": 0.5310373611891462,
+      "image_share": 0.19437836304968292,
+      "post_share": 0.2745842757611697
+    },
+    {
+      "image_id": "04",
+      "category": "docvqa",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 164.3795928955078,
+      "post_mean": 276.7486877441406,
+      "pre_share": 0.5217143402151998,
+      "image_share": 0.17822571232382298,
+      "post_share": 0.30005994746097614
+    },
+    {
+      "image_id": "05",
+      "category": "docvqa",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 166.46141052246094,
+      "post_mean": 250.0055694580078,
+      "pre_share": 0.5360474921701066,
+      "image_share": 0.18544132567825392,
+      "post_share": 0.2785111821516383
+    },
+    {
+      "image_id": "06",
+      "category": "docvqa",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 202.2908935546875,
+      "post_mean": 264.3792419433594,
+      "pre_share": 0.5076556734960749,
+      "image_share": 0.21342007162889567,
+      "post_share": 0.2789242548750284
+    },
+    {
+      "image_id": "07",
+      "category": "handwritten",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 216.4322509765625,
+      "post_mean": 235.47296142578125,
+      "pre_share": 0.5156886724362649,
+      "image_share": 0.23195260404463217,
+      "post_share": 0.25235872351910177
+    },
+    {
+      "image_id": "08",
+      "category": "handwritten",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 170.23777770996094,
+      "post_mean": 235.8490753173828,
+      "pre_share": 0.5423186854536306,
+      "image_share": 0.19186695975725418,
+      "post_share": 0.26581435478911414
+    },
+    {
+      "image_id": "09",
+      "category": "handwritten",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 193.8926544189453,
+      "post_mean": 228.17739868164062,
+      "pre_share": 0.5327222743516635,
+      "image_share": 0.2146603814016902,
+      "post_share": 0.2526173442466451
+    },
+    {
+      "image_id": "10",
+      "category": "handwritten",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 190.16627502441406,
+      "post_mean": 241.2480010986328,
+      "pre_share": 0.5272676498108658,
+      "image_share": 0.20837917309292728,
+      "post_share": 0.2643531770962058
+    },
+    {
+      "image_id": "11",
+      "category": "arxiv_equation",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 192.6541290283203,
+      "post_mean": 222.7672119140625,
+      "pre_share": 0.5366726421171997,
+      "image_share": 0.21487083062563173,
+      "post_share": 0.24845652725716752
+    },
+    {
+      "image_id": "12",
+      "category": "arxiv_equation",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 181.46131896972656,
+      "post_mean": 227.78794860839844,
+      "pre_share": 0.5403926137254332,
+      "image_share": 0.20379013263765994,
+      "post_share": 0.25581725363690566
+    },
+    {
+      "image_id": "13",
+      "category": "arxiv_equation",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 180.28221130371094,
+      "post_mean": 223.5392303466797,
+      "pre_share": 0.5437068986652914,
+      "image_share": 0.2037076807389228,
+      "post_share": 0.25258542059578465
+    },
+    {
+      "image_id": "14",
+      "category": "arxiv_equation",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 180.41693115234375,
+      "post_mean": 219.84156799316406,
+      "pre_share": 0.5459046580443043,
+      "image_share": 0.20468394355428146,
+      "post_share": 0.24941139840141308
+    },
+    {
+      "image_id": "15",
+      "category": "receipt",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 191.2003631591797,
+      "post_mean": 244.942138671875,
+      "pre_share": 0.5245499227542192,
+      "image_share": 0.20843239778696643,
+      "post_share": 0.26701767945881333
+    },
+    {
+      "image_id": "16",
+      "category": "receipt",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 197.21978759765625,
+      "post_mean": 242.43760681152344,
+      "pre_share": 0.52254769027987,
+      "image_share": 0.2141736822999471,
+      "post_share": 0.2632786274201817
+    },
+    {
+      "image_id": "17",
+      "category": "receipt",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 171.54010009765625,
+      "post_mean": 240.9334259033203,
+      "pre_share": 0.5384429101210568,
+      "image_share": 0.1919530452444824,
+      "post_share": 0.26960404463445964
+    },
+    {
+      "image_id": "18",
+      "category": "receipt",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 190.26113891601562,
+      "post_mean": 237.3855438232422,
+      "pre_share": 0.5294534609144408,
+      "image_share": 0.2093473983381591,
+      "post_share": 0.26119914074739903
+    },
+    {
+      "image_id": "19",
+      "category": "form",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 163.86187744140625,
+      "post_mean": 254.0188446044922,
+      "pre_share": 0.5352045787784164,
+      "image_share": 0.18225834868537524,
+      "post_share": 0.28253707253620713
+    },
+    {
+      "image_id": "20",
+      "category": "form",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 174.50961303710938,
+      "post_mean": 255.18389892578125,
+      "pre_share": 0.5282637269063107,
+      "image_share": 0.19158426222702016,
+      "post_share": 0.28015201086666797
+    },
+    {
+      "image_id": "21",
+      "category": "form",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 158.6930694580078,
+      "post_mean": 249.968017578125,
+      "pre_share": 0.5407498093388994,
+      "image_share": 0.1783380525260075,
+      "post_share": 0.2809121381350919
+    },
+    {
+      "image_id": "22",
+      "category": "form",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 189.62477111816406,
+      "post_mean": 249.87844848632812,
+      "pre_share": 0.5226351942334269,
+      "image_share": 0.20596024783347877,
+      "post_share": 0.2714045579330932
+    },
+    {
+      "image_id": "23",
+      "category": "multilingual_zh_cn",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 155.62425231933594,
+      "post_mean": 227.84249877929688,
+      "pre_share": 0.556506283723118,
+      "image_share": 0.17998529939342992,
+      "post_share": 0.263508416883451
+    },
+    {
+      "image_id": "24",
+      "category": "multilingual_ar",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 211.62527465820312,
+      "post_mean": 238.25125122070312,
+      "pre_share": 0.5168123069419601,
+      "image_share": 0.2272950962602459,
+      "post_share": 0.2558925967977929
+    },
+    {
+      "image_id": "25",
+      "category": "multilingual_ja",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 182.0448760986328,
+      "post_mean": 231.78207397460938,
+      "pre_share": 0.5376286827933495,
+      "image_share": 0.20339982482423796,
+      "post_share": 0.25897149238241135
+    },
+    {
+      "image_id": "26",
+      "category": "multilingual_fr",
+      "pre_mean": 481.18304443359375,
+      "image_mean": 201.65728759765625,
+      "post_mean": 235.60800170898438,
+      "pre_share": 0.5239086693903097,
+      "image_share": 0.21956301752591664,
+      "post_share": 0.2565283130837726
+    }
+  ]
+}

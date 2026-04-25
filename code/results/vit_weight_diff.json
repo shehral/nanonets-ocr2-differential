@@ -1,0 +1,2197 @@
+{
+  "num_vit_layers": 32,
+  "per_layer": [
+    {
+      "layer": 0,
+      "total_diff_fro": 12.562422567100445,
+      "total_base_fro": 86.33671007646926,
+      "fractional_change": 0.145504994989659,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.099708900411283,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 20.681264992250533,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.684405145046168,
+          "base_frobenius": 43.95032957472063,
+          "fractional_change": 0.12933703114516795
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 18.949950302179637,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.3360129711896076,
+          "base_frobenius": 16.53354079413742,
+          "fractional_change": 0.20177244624891924
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.348112481677574,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 7.353142887714643,
+          "base_frobenius": 36.89837216143908,
+          "fractional_change": 0.19928095623142153
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.596219002811886,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.32392891118957,
+          "base_frobenius": 37.723068634809685,
+          "fractional_change": 0.16764089296155177
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.104216288634044,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.506909046840655,
+          "base_frobenius": 37.149905498071256,
+          "fractional_change": 0.12131683745668001
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 3.140628492059237,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 1,
+      "total_diff_fro": 12.173323264777652,
+      "total_base_fro": 75.94746611388305,
+      "fractional_change": 0.16028610153396852,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.312267323961295,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 16.47198512460816,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.511901523379735,
+          "base_frobenius": 33.16795195831927,
+          "fractional_change": 0.19633113107383787
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 21.420772332123963,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.3610578713171932,
+          "base_frobenius": 16.705815126272743,
+          "fractional_change": 0.20119089346506389
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.6093326039781886,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.948783352624707,
+          "base_frobenius": 34.898649995155615,
+          "fractional_change": 0.17045883876454546
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.3557926290598696,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.981401227516112,
+          "base_frobenius": 33.53083862166103,
+          "fractional_change": 0.17838507694382352
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.007526264550306,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.829393732472243,
+          "base_frobenius": 34.12689583790547,
+          "fractional_change": 0.14151283361400807
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.8266676208956327,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 2,
+      "total_diff_fro": 11.897600651728288,
+      "total_base_fro": 81.66199113800269,
+      "fractional_change": 0.14569324707772657,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 17.61328514845266,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 26.54552996519023,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.28647407670935,
+          "base_frobenius": 36.27381020296358,
+          "fractional_change": 0.17330614130509978
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 13.796509475445399,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.33944096506698,
+          "base_frobenius": 17.714255864693943,
+          "fractional_change": 0.1885171463353755
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.9262192172017403,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.963781395859313,
+          "base_frobenius": 35.36750762639523,
+          "fractional_change": 0.16862317409690178
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.765831247822046,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.816218673520033,
+          "base_frobenius": 34.88495496640081,
+          "fractional_change": 0.16672570393516958
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.213723691747264,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.6353199237915,
+          "base_frobenius": 35.08899121786632,
+          "fractional_change": 0.1321018291751629
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.921866187424043,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 3,
+      "total_diff_fro": 11.803716593110046,
+      "total_base_fro": 83.98903156802479,
+      "fractional_change": 0.14053878670514,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 20.910509071957993,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 31.751074585038655,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.410402915062926,
+          "base_frobenius": 35.85725075407518,
+          "fractional_change": 0.1787756389642952
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 12.575561413831467,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.293193623929504,
+          "base_frobenius": 18.461921888428982,
+          "fractional_change": 0.17837761657920007
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.5179498676219196,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.763604365709345,
+          "base_frobenius": 35.5196221078927,
+          "fractional_change": 0.16226536273955658
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.0559644321081407,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.724469102789277,
+          "base_frobenius": 35.646542965491406,
+          "fractional_change": 0.16058974101165552
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.057607287986305,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.626084071772943,
+          "base_frobenius": 35.39023178589503,
+          "fractional_change": 0.13071641066834047
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.6737467138297855,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 4,
+      "total_diff_fro": 12.843985042602517,
+      "total_base_fro": 85.54820492481463,
+      "fractional_change": 0.1501373997723331,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 25.291515703918627,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 31.99111910609187,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.752590106361502,
+          "base_frobenius": 36.175414918577644,
+          "fractional_change": 0.1866624093064256
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.432651512934381,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.533083684366922,
+          "base_frobenius": 18.372972026164376,
+          "fractional_change": 0.1922978862284978
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.4127250795881825,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.975863546751593,
+          "base_frobenius": 35.45147569433817,
+          "fractional_change": 0.16856459229723428
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.137619698258403,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.036327063312855,
+          "base_frobenius": 35.699875057226215,
+          "fractional_change": 0.16908538345404764
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.866674307377361,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 5.89403162229797,
+          "base_frobenius": 35.42964012538178,
+          "fractional_change": 0.16635877760653067
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.1475386525273814,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 5,
+      "total_diff_fro": 12.672072139763435,
+      "total_base_fro": 85.41875177901044,
+      "fractional_change": 0.14835234507462258,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 27.91854126363092,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 30.748195688299134,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.757057738740136,
+          "base_frobenius": 36.673607556537675,
+          "fractional_change": 0.1842485151841953
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.106355431360035,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.780364255964745,
+          "base_frobenius": 18.223072828169823,
+          "fractional_change": 0.20744933039617375
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.2599112966134431,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 6.054778855157576,
+          "base_frobenius": 35.335563541300004,
+          "fractional_change": 0.17135085020168458
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.054818741102166,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.840633438455314,
+          "base_frobenius": 35.4416023584484,
+          "fractional_change": 0.16479597562729517
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.260567701330647,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 5.464346546080252,
+          "base_frobenius": 35.20098889435672,
+          "fractional_change": 0.15523275674099368
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.6652401620906143,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 6,
+      "total_diff_fro": 13.928736886938598,
+      "total_base_fro": 88.1744319755249,
+      "fractional_change": 0.1579679797745079,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 31.091463091151525,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 30.838296796619723,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 7.333572932866348,
+          "base_frobenius": 36.7539027211312,
+          "fractional_change": 0.19953181539683953
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.754714567628378,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.847067169174225,
+          "base_frobenius": 18.152030625258224,
+          "fractional_change": 0.2119359122180462
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.156754151827598,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 6.9910269855714535,
+          "base_frobenius": 35.13220358183678,
+          "fractional_change": 0.19899198663375586
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 20.216983959772225,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.632014178252854,
+          "base_frobenius": 35.013721501139734,
+          "fractional_change": 0.1894118618050008
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.606346247377895,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 5.707050299955372,
+          "base_frobenius": 34.73449273203169,
+          "fractional_change": 0.16430498478799552
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.4352233106865586,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 7,
+      "total_diff_fro": 14.560160502188404,
+      "total_base_fro": 87.77933451286296,
+      "fractional_change": 0.16587230448932863,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 30.882694907124968,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 30.09013153219839,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 7.565888205436174,
+          "base_frobenius": 37.91233591911411,
+          "fractional_change": 0.19956270227130768
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.112818874937537,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 4.003572537541251,
+          "base_frobenius": 21.197968813920298,
+          "fractional_change": 0.18886585656791763
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.0961150076905861,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 7.01055983632905,
+          "base_frobenius": 35.102970043279456,
+          "fractional_change": 0.1997141503321608
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 12.107346100192386,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.576757438382558,
+          "base_frobenius": 34.99446105725162,
+          "fractional_change": 0.1879370974630147
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.789656087359578,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 6.806271286607983,
+          "base_frobenius": 34.72943516661605,
+          "fractional_change": 0.19597990160088669
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.471830991828158,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 8,
+      "total_diff_fro": 13.435620553521268,
+      "total_base_fro": 86.08851692648157,
+      "fractional_change": 0.15606751089689408,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 29.38596246576012,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 29.78072841063443,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 7.677706799667473,
+          "base_frobenius": 36.27047172481529,
+          "fractional_change": 0.2116792651035299
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.144131786676278,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.7275389345772183,
+          "base_frobenius": 19.691391914421484,
+          "fractional_change": 0.1892978896960084
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.1460953268444654,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 6.4089712922513815,
+          "base_frobenius": 35.3042941931511,
+          "fractional_change": 0.18153517691608506
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.480280436943094,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.265154966004183,
+          "base_frobenius": 35.20845776297046,
+          "fractional_change": 0.17794460093032566
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.1457922106295335,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 5.2294446813026605,
+          "base_frobenius": 35.03359506535298,
+          "fractional_change": 0.14926942757508352
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.5055115690214398,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 9,
+      "total_diff_fro": 12.968295647808628,
+      "total_base_fro": 87.67811558250895,
+      "fractional_change": 0.14790801058680084,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 29.675583545889413,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 31.33456429302303,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.865152137665342,
+          "base_frobenius": 37.333337329682635,
+          "fractional_change": 0.18388798400315737
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.954810079221948,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.8185106018246904,
+          "base_frobenius": 19.674460122288377,
+          "fractional_change": 0.1940846446657342
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.2488732504902569,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 6.213281728887665,
+          "base_frobenius": 35.4003263469244,
+          "fractional_change": 0.17551481497648122
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.422024622823004,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.015430635557289,
+          "base_frobenius": 35.716943783618824,
+          "fractional_change": 0.16841952301406118
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.34448415609733,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 5.628061775220944,
+          "base_frobenius": 35.404719185794995,
+          "fractional_change": 0.15896360441912116
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.4258021522975541,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 10,
+      "total_diff_fro": 13.055041287260831,
+      "total_base_fro": 89.6983748997109,
+      "fractional_change": 0.1455437883000349,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 32.511048302365616,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 32.259048966675614,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.495314743485751,
+          "base_frobenius": 37.23613875386216,
+          "fractional_change": 0.17443577558942996
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.581293524775774,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.482222777626736,
+          "base_frobenius": 20.594897688287155,
+          "fractional_change": 0.16908181969784664
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.1545813092246473,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 6.823536463728041,
+          "base_frobenius": 35.59820812730607,
+          "fractional_change": 0.19168202060411477
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 13.306658255575066,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.249459815523246,
+          "base_frobenius": 36.018382147718164,
+          "fractional_change": 0.17350751041212406
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.388229943764453,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 5.522926404040988,
+          "base_frobenius": 35.66071742938054,
+          "fractional_change": 0.15487423703625616
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.423606740226342,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 11,
+      "total_diff_fro": 12.449488473824445,
+      "total_base_fro": 90.5135720413797,
+      "fractional_change": 0.13754278162984032,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 33.45207589725842,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 32.58131166968555,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.589331714973164,
+          "base_frobenius": 37.65147142916529,
+          "fractional_change": 0.17500861094817163
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.348886156290558,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.673863168941713,
+          "base_frobenius": 21.054228021424223,
+          "fractional_change": 0.1744952683709473
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.2682037455408566,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 6.211435588321841,
+          "base_frobenius": 35.89143447062788,
+          "fractional_change": 0.17306178145108297
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.108491979886113,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 6.085710592287965,
+          "base_frobenius": 36.4478102372934,
+          "fractional_change": 0.1669705409643759
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.012663511087128,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.738712350931743,
+          "base_frobenius": 36.12001378055956,
+          "fractional_change": 0.1311935366282189
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.603924159095399,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 12,
+      "total_diff_fro": 12.054721992922946,
+      "total_base_fro": 91.47319095571115,
+      "fractional_change": 0.131784207667571,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 33.16594977698325,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 34.50917351430812,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.492413127848247,
+          "base_frobenius": 38.004350915080266,
+          "fractional_change": 0.17083341700415314
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.217698349340004,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.3949928101588482,
+          "base_frobenius": 21.47098446341306,
+          "fractional_change": 0.15812003478200165
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.4336451383522169,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.88211537722911,
+          "base_frobenius": 35.92221142186962,
+          "fractional_change": 0.16374591497582147
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.024545143036148,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.8468198821560255,
+          "base_frobenius": 36.83241052176398,
+          "fractional_change": 0.15874116842559155
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.269636510993318,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.78062065819528,
+          "base_frobenius": 36.42535375922072,
+          "fractional_change": 0.13124431652183974
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.4832770854843669,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 13,
+      "total_diff_fro": 11.485661648668327,
+      "total_base_fro": 92.83539777414418,
+      "fractional_change": 0.12372071347840019,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 34.17375037720838,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 34.85723708986503,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.93897172857988,
+          "base_frobenius": 38.15294186109703,
+          "fractional_change": 0.1556622225935203
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.854090318659596,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.438252037321225,
+          "base_frobenius": 21.647796081710315,
+          "fractional_change": 0.15882688585679908
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.6748200618827858,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.718732656650614,
+          "base_frobenius": 36.07523199206417,
+          "fractional_change": 0.158522408335682
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.966289541640469,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.8180571212193755,
+          "base_frobenius": 37.5225485593746,
+          "fractional_change": 0.15505495614224857
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.029087666638748,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.274782962755198,
+          "base_frobenius": 37.006696765163326,
+          "fractional_change": 0.11551376741031363
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.641548260260837,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 14,
+      "total_diff_fro": 10.784456257277727,
+      "total_base_fro": 93.00478817421751,
+      "fractional_change": 0.1159559251624342,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 35.068024715142926,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 35.112175497454764,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 6.004669597598053,
+          "base_frobenius": 38.21457842115035,
+          "fractional_change": 0.15713033731322112
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.893309865651558,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.109006927021171,
+          "base_frobenius": 21.289202981187877,
+          "fractional_change": 0.14603679291180074
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.5829526125622186,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.183505439149776,
+          "base_frobenius": 35.6881841002733,
+          "fractional_change": 0.14524430339704328
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.006565949494196,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.2344209128117,
+          "base_frobenius": 37.69368438841496,
+          "fractional_change": 0.13886731949239603
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.215122913521748,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 4.039136638735679,
+          "base_frobenius": 37.445279085370025,
+          "fractional_change": 0.10786771356482351
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.680733430484848,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 15,
+      "total_diff_fro": 10.013730826668436,
+      "total_base_fro": 99.07891394435366,
+      "fractional_change": 0.10106823367374024,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 40.0107804076367,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 36.75485923975733,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.001190234615894,
+          "base_frobenius": 41.57064358658794,
+          "fractional_change": 0.12030581687287907
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.620647312853384,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.0227065669072184,
+          "base_frobenius": 26.584633471545292,
+          "fractional_change": 0.1137012691990823
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.4864168278496117,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.131759465861013,
+          "base_frobenius": 36.0334757822934,
+          "fractional_change": 0.14241644344458662
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.6698983002342525,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.23660604272268,
+          "base_frobenius": 38.57714407420377,
+          "fractional_change": 0.13574374589912216
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.930863238758575,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.5169799906161723,
+          "base_frobenius": 38.060517959478034,
+          "fractional_change": 0.09240494294797852
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.537291926749144,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 16,
+      "total_diff_fro": 10.05664849591239,
+      "total_base_fro": 98.272383333583,
+      "fractional_change": 0.1023344316558932,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 38.89173926185997,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 38.995323487647205,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.4222700431327,
+          "base_frobenius": 39.70492512398887,
+          "fractional_change": 0.13656416744774424
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.025023694348121,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.948277930958801,
+          "base_frobenius": 22.113574855077,
+          "fractional_change": 0.1333243471614351
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.600626080924864,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.109783751210109,
+          "base_frobenius": 36.541465303452696,
+          "fractional_change": 0.1398352175747906
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 0.849513081322461,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.054198817784799,
+          "base_frobenius": 39.25535673289141,
+          "fractional_change": 0.12875182493373807
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.988564551097978,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.374612291460425,
+          "base_frobenius": 38.812937170444535,
+          "fractional_change": 0.08694555314484301
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.544910532141712,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 17,
+      "total_diff_fro": 10.156162390697856,
+      "total_base_fro": 101.05151462594792,
+      "fractional_change": 0.10050480122234473,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 39.18792052704985,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 40.496229208138935,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.705262000631488,
+          "base_frobenius": 40.55921807553047,
+          "fractional_change": 0.1406649898922325
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.14072280625021,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.8994219565613317,
+          "base_frobenius": 22.62270347784465,
+          "fractional_change": 0.1281642558503553
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.504640157396486,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.047431088449982,
+          "base_frobenius": 37.126647296155426,
+          "fractional_change": 0.13595170735959566
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.136474178522853,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.994048773048077,
+          "base_frobenius": 41.02000274256451,
+          "fractional_change": 0.12174667087152259
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.639136046447453,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.4313100396133924,
+          "base_frobenius": 39.08013351995487,
+          "fractional_change": 0.0878019016455312
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.7812835957889213,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 18,
+      "total_diff_fro": 9.787124186154228,
+      "total_base_fro": 103.47395661047597,
+      "fractional_change": 0.0945853865721731,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 42.59899287936204,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 42.05176660045033,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.3052224969540624,
+          "base_frobenius": 41.88327227060643,
+          "fractional_change": 0.1266668578968011
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.191561211211706,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.976882076379157,
+          "base_frobenius": 24.28131661227993,
+          "fractional_change": 0.12259969769816843
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.5389474738652662,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.862345581740814,
+          "base_frobenius": 37.405093118597335,
+          "fractional_change": 0.12999153795243962
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.137619698258403,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.927932160740382,
+          "base_frobenius": 39.77334005463412,
+          "fractional_change": 0.12390038538304979
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.989341796097525,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.294490439994675,
+          "base_frobenius": 39.45935285003734,
+          "fractional_change": 0.08349073672128086
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.8330919655945777,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 19,
+      "total_diff_fro": 9.950192485078482,
+      "total_base_fro": 106.4284055747864,
+      "fractional_change": 0.09349188716433854,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 43.66933970726773,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 43.3806662252718,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.305644919467812,
+          "base_frobenius": 41.942053648549596,
+          "fractional_change": 0.12649940710881621
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.05513176162562,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.899612394277611,
+          "base_frobenius": 24.445770659257196,
+          "fractional_change": 0.11861407172203257
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.6631910164341368,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.1189284297040745,
+          "base_frobenius": 38.04924915590484,
+          "fractional_change": 0.1345342823646636
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 19.531662495644092,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.9424014329512405,
+          "base_frobenius": 40.12268173793659,
+          "fractional_change": 0.12318223057054542
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.917612524354727,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.437724574295949,
+          "base_frobenius": 39.83849383222604,
+          "fractional_change": 0.08629152971428422
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.8678568514146658,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 20,
+      "total_diff_fro": 10.070303361295188,
+      "total_base_fro": 107.96176618189966,
+      "fractional_change": 0.09327657111803932,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 45.301671658760284,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 45.4711446963896,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.673049174692262,
+          "base_frobenius": 42.890286314691934,
+          "fractional_change": 0.13226885763989046
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.9229679977453,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.3822338146685547,
+          "base_frobenius": 24.47830921592242,
+          "fractional_change": 0.13817268933216895
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.7375055875619745,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.810647781435091,
+          "base_frobenius": 38.52619498724618,
+          "fractional_change": 0.12486693230482523
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 13.535098755289143,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.848163390701623,
+          "base_frobenius": 40.628186473590134,
+          "fractional_change": 0.11933004673622323
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.815673089152907,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.337813196238429,
+          "base_frobenius": 40.33675838671766,
+          "fractional_change": 0.08274867217236381
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.0010969015027986,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 21,
+      "total_diff_fro": 9.869400706470003,
+      "total_base_fro": 109.95528995517837,
+      "fractional_change": 0.08975830731284531,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 46.964458906609636,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 48.071566318159945,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.4355289789276,
+          "base_frobenius": 43.285085570118724,
+          "fractional_change": 0.12557510069195332
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.371145980329874,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.0158428844740914,
+          "base_frobenius": 24.93233396325881,
+          "fractional_change": 0.12096111374563753
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 1.9419204982587772,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.890457686709706,
+          "base_frobenius": 39.30011014267724,
+          "fractional_change": 0.12443877813459045
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.2415723854101173,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.80849180880469,
+          "base_frobenius": 41.181274128749195,
+          "fractional_change": 0.11676403682341875
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.700649844866232,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.4244148200000586,
+          "base_frobenius": 40.88799189076635,
+          "fractional_change": 0.0837511127753208
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.22059329121114,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "total_diff_fro": 9.904121723856774,
+      "total_base_fro": 112.54663413839054,
+      "fractional_change": 0.0880001592200287,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 47.35971007799641,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 50.14902352535765,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.499499558309438,
+          "base_frobenius": 43.46641068022382,
+          "fractional_change": 0.12652297422872905
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.713253711731051,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.9141682050826523,
+          "base_frobenius": 25.044523341722087,
+          "fractional_change": 0.11635949965267556
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.0832749422155685,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.8732208526683705,
+          "base_frobenius": 39.69771337578054,
+          "fractional_change": 0.12275822555667364
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 15.305512994582827,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.8440421723877565,
+          "base_frobenius": 41.55943950198017,
+          "fractional_change": 0.11655696588874441
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.910078963671811,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.484498436627343,
+          "base_frobenius": 41.26311936258879,
+          "fractional_change": 0.08444583178523529
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.4259884265142433,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 23,
+      "total_diff_fro": 9.616985700087552,
+      "total_base_fro": 119.72868466859656,
+      "fractional_change": 0.0803231550292801,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 53.85837774678722,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 52.783042357814836,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 4.785418121023238,
+          "base_frobenius": 46.145328663060525,
+          "fractional_change": 0.10370319726108865
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.84697135410847,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.9690162940806846,
+          "base_frobenius": 30.940264830685738,
+          "fractional_change": 0.09595962769963096
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.6478135715907007,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.974779034025324,
+          "base_frobenius": 40.21145585079736,
+          "fractional_change": 0.12371546686804562
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 14.049090286072296,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.931882342467367,
+          "base_frobenius": 42.51057141042243,
+          "fractional_change": 0.11601543284026732
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.834736780708695,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.420415140130648,
+          "base_frobenius": 42.19897847317738,
+          "fractional_change": 0.08105445354097043
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.9264653504922684,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "total_diff_fro": 10.078572391959138,
+      "total_base_fro": 121.2992660324144,
+      "fractional_change": 0.08308848620127506,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 53.04043130966814,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 57.242131521229624,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.536106197705694,
+          "base_frobenius": 45.51414186134898,
+          "fractional_change": 0.12163485833854384
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 9.300731211803658,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.9883045469884353,
+          "base_frobenius": 26.468191958403107,
+          "fractional_change": 0.11290172565185727
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 3.075165385939252,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.9334876259741085,
+          "base_frobenius": 41.351473201537814,
+          "fractional_change": 0.1193062119438714
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 13.706429547387605,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.01408633579807,
+          "base_frobenius": 43.76417181182571,
+          "fractional_change": 0.11457057515808118
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.84970989866,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.5381949668803196,
+          "base_frobenius": 43.38579150248241,
+          "fractional_change": 0.08155192850815669
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 3.625150480106718,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 25,
+      "total_diff_fro": 10.446881629332397,
+      "total_base_fro": 124.40538622535432,
+      "fractional_change": 0.08397451224827432,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 50.57357052014669,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 61.39160329457217,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.970376636886428,
+          "base_frobenius": 47.02056045464314,
+          "fractional_change": 0.12697374465890152
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.508731172422289,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.2219113130493326,
+          "base_frobenius": 26.95552525544392,
+          "fractional_change": 0.11952693492398254
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 3.295631644294533,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.021619595369177,
+          "base_frobenius": 42.37268528200464,
+          "fractional_change": 0.11851077084089601
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 16.676155949321586,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.038086600025397,
+          "base_frobenius": 44.98784015396549,
+          "fractional_change": 0.11198774119368783
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.606100222532692,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.5372653465490784,
+          "base_frobenius": 44.43544793521412,
+          "fractional_change": 0.07960458397327853
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 3.7010809170056835,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "total_diff_fro": 10.444228008295779,
+      "total_base_fro": 130.20700138153381,
+      "fractional_change": 0.0802124916285563,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 53.73729637304407,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 66.50779001600114,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.939715805190981,
+          "base_frobenius": 48.167582114912875,
+          "fractional_change": 0.12331355539127005
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.692541190784995,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 3.110571549569345,
+          "base_frobenius": 28.31929631797571,
+          "fractional_change": 0.10983929525094858
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.22664237519834,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.033818128535423,
+          "base_frobenius": 43.33034923744629,
+          "fractional_change": 0.11617303384633368
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 16.105055191907137,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 5.088422177127754,
+          "base_frobenius": 46.33491202393315,
+          "fractional_change": 0.10981831959666494
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.037578261162175,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.590912735501493,
+          "base_frobenius": 45.6863938392083,
+          "fractional_change": 0.0785991721767209
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.811623233343238,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 27,
+      "total_diff_fro": 10.172646254498032,
+      "total_base_fro": 133.75021211839058,
+      "fractional_change": 0.07605704763663117,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 51.498843281912656,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 72.93023608859016,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.7439832305875935,
+          "base_frobenius": 48.63822070832644,
+          "fractional_change": 0.11809608055017018
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.031899748765465,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.971496115037361,
+          "base_frobenius": 28.39721562880329,
+          "fractional_change": 0.10464040397056634
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.455926596100298,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.936182160093664,
+          "base_frobenius": 44.448192828315584,
+          "fractional_change": 0.11105473239733098
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 10.850923391681855,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.872488304034112,
+          "base_frobenius": 47.84661262664004,
+          "fractional_change": 0.10183559580393589
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.638333703967764,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.6813805445271544,
+          "base_frobenius": 46.99544941401242,
+          "fractional_change": 0.07833483008313173
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.138240736676512,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 28,
+      "total_diff_fro": 9.654761536081743,
+      "total_base_fro": 140.72631915701888,
+      "fractional_change": 0.06860665150567276,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 54.15436108217647,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 79.6908179456313,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.3085310527363605,
+          "base_frobenius": 50.631071202313606,
+          "fractional_change": 0.10484729883600961
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.049941580424182,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.8875569325568846,
+          "base_frobenius": 30.379405263437206,
+          "fractional_change": 0.09504981771424198
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.4714373280086255,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.806856090888891,
+          "base_frobenius": 45.56329035237002,
+          "fractional_change": 0.10549844082186115
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 0.023870246770352762,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.722369088276371,
+          "base_frobenius": 49.342391823455166,
+          "fractional_change": 0.09570612436407008
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.401784846562005,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.359955067788281,
+          "base_frobenius": 48.39393454133095,
+          "fractional_change": 0.06942926008462144
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.654984137582835,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 29,
+      "total_diff_fro": 9.649719251986085,
+      "total_base_fro": 145.67317371470753,
+      "fractional_change": 0.06624225316106887,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 52.18129173402332,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 85.42286816918524,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 5.128270292112619,
+          "base_frobenius": 51.50756543339046,
+          "fractional_change": 0.09956343789427194
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.380855961240856,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.612248831178541,
+          "base_frobenius": 31.27689272537615,
+          "fractional_change": 0.08352008794847575
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.448112041794505,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.076809850732844,
+          "base_frobenius": 46.52078143656607,
+          "fractional_change": 0.10912993492285325
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 15.191292748354597,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.747443866608805,
+          "base_frobenius": 50.38287246565667,
+          "fractional_change": 0.09422733628069323
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 7.369021821448249,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.417873603586413,
+          "base_frobenius": 49.48245822384939,
+          "fractional_change": 0.06907242942791003
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.772128440691514,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 30,
+      "total_diff_fro": 9.390258223341762,
+      "total_base_fro": 149.30271882777365,
+      "fractional_change": 0.06289408724146356,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 52.76001460031072,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 86.73183459844776,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 4.864583551160439,
+          "base_frobenius": 53.32959683362982,
+          "fractional_change": 0.09121733221303344
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.239038757255283,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.4354350806965885,
+          "base_frobenius": 34.558641214856635,
+          "fractional_change": 0.0704725358139814
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 4.651355193172915,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 5.076515670471141,
+          "base_frobenius": 47.11738893278945,
+          "fractional_change": 0.10774187164132595
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 19.988543471628628,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.673247374987978,
+          "base_frobenius": 51.09519063335976,
+          "fractional_change": 0.09146158996687938
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.723967473629374,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 3.3122771566036264,
+          "base_frobenius": 50.55049735861285,
+          "fractional_change": 0.06552412596666987
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.151300077317596,
+          "fractional_change": 0.0
+        }
+      }
+    },
+    {
+      "layer": 31,
+      "total_diff_fro": 8.79478031241903,
+      "total_base_fro": 161.05516291031674,
+      "fractional_change": 0.054607254765973154,
+      "modules": {
+        "norm1.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 75.84980468724854,
+          "fractional_change": 0.0
+        },
+        "norm2.weight": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 81.3400012342098,
+          "fractional_change": 0.0
+        },
+        "attn.qkv.weight": {
+          "diff_frobenius": 4.598375962545899,
+          "base_frobenius": 56.209536227322005,
+          "fractional_change": 0.08180775489676902
+        },
+        "attn.qkv.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 11.180622736147857,
+          "fractional_change": 0.0
+        },
+        "attn.proj.weight": {
+          "diff_frobenius": 2.194899116231115,
+          "base_frobenius": 45.17120210930854,
+          "fractional_change": 0.048590673122218236
+        },
+        "attn.proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 5.471458418329681,
+          "fractional_change": 0.0
+        },
+        "mlp.gate_proj.weight": {
+          "diff_frobenius": 4.97380509331872,
+          "base_frobenius": 49.42009165293378,
+          "fractional_change": 0.1006433805960648
+        },
+        "mlp.gate_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 2.5414004785781183,
+          "fractional_change": 0.0
+        },
+        "mlp.up_proj.weight": {
+          "diff_frobenius": 4.310605724989076,
+          "base_frobenius": 53.504887152658775,
+          "fractional_change": 0.08056471014862783
+        },
+        "mlp.up_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 8.776823075066263,
+          "fractional_change": 0.0
+        },
+        "mlp.down_proj.weight": {
+          "diff_frobenius": 2.839975052307589,
+          "base_frobenius": 52.75183507249416,
+          "fractional_change": 0.05383651674685254
+        },
+        "mlp.down_proj.bias": {
+          "diff_frobenius": 0.0,
+          "base_frobenius": 6.566455048896603,
+          "fractional_change": 0.0
+        }
+      }
+    }
+  ],
+  "extras": {
+    "patch_embed": {
+      "total_diff_fro": 0.0,
+      "total_base_fro": 17.66616407915098,
+      "fractional_change": 0.0
+    },
+    "merger": {
+      "total_diff_fro": 0.0,
+      "total_base_fro": 162.99747747498137,
+      "fractional_change": 0.0
+    }
+  },
+  "vit_mean_fractional_change": 0.11224693170302688,
+  "vit_max_fractional_change": 0.16587230448932863,
+  "decoder_mean_fractional_change_for_comparison": 0.07031160519740703,
+  "vit_vs_decoder_ratio": 1.5964211226053748
+}
